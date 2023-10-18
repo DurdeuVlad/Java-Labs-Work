@@ -6,7 +6,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Scrie un numar: ");
         int citire = scanner.nextInt();
-        System.out.println("Ai scris "+citi4re);
+        System.out.println("Ai scris "+citire);
         byte[] a = new byte[20];
         BigInteger bigInteger = new BigInteger(a);
         for(int i=0;i<citire;i++){

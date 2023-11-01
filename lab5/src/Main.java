@@ -37,7 +37,7 @@ public class Main {
         Complex[][] JORDAN = new Complex[10][10];
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {
-                JORDAN[i][j] = new Complex(i, j);
+                JORDAN[i][j] = new Complex(random.nextInt()%100, random.nextInt()%100);
             }
         }
         MatriceComplex A = new MatriceComplex(JORDAN);
@@ -45,7 +45,6 @@ public class Main {
 
         System.out.println(A.toString());
         System.out.println(A.add(B));
-        System.out.println(A);
 
     }
 

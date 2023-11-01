@@ -17,6 +17,10 @@ public class Complex {
     public Complex multiply(int alpha){
         return new Complex(this.re * alpha, this.im * alpha);
     }
+    public Complex multiply(Complex complex){
+        return new Complex(this.re * complex.re, this.im * complex.im);
+    }
+
 
     @Override
     public String toString() {
